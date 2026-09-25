@@ -96,3 +96,30 @@ h2 {
    font-family: 'Oswald', sans-serif;
 }
 
+/* Fishbowl printing entry (Week 4): photo layouts.
+   Only affects elements with these classes, so other pages are unchanged. */
+.photo-single {
+   max-width: 360px;
+   margin-inline: auto;
+}
+
+.photo-pair {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 1rem;
+   margin-bottom: 1.5rem;
+}
+
+.photo-pair figure {
+   margin: 0;
+}
+
+.photo-single img,
+.photo-pair img {
+   width: 100%;
+   height: auto;
+}
+
+@media (max-width: 500px) {
+   .photo-pair { grid-template-columns: 1fr; }
+}
