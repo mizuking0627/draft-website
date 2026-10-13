@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Product Team Sprint: Riverton 311 — Mizuki Kuno</title>
+<meta name="description" content="Reflection on a three-phase product team sprint designing Riverton 311, an app for reporting broken streetlights.">
+
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Mizuki Kuno</h1>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html" aria-current="page">Log</a>
+    <a href="../project.html">Project</a>
+    <a href="../about.html">About</a>
+  </nav>
+</header>
+
+<main>
+
+<article>
+
+  <h2>Product Team Sprint: Riverton 311</h2>
+  <p><time datetime="2026-09-28">Week of September 28, 2026</time> · Week 5 · Group 4</p>
+
+  <p>For our product team sprint, my group (Vida, Kaisha, Suzanna, Kaz, and I) designed Riverton 311, an app from the City of Riverton that lets a resident report a broken streetlight and check its status later. We worked in three phases, and after each one we got feedback and a change order that shaped the next version.</p>
+
+  <dl>
+    <dt>What it is</dt>
+    <dd>An app from the City of Riverton to report a broken streetlight and check the status later.</dd>
+    <dt>Who uses it</dt>
+    <dd>A resident who saw a streetlight out and wants it fixed.</dd>
+    <dt>What people told us</dt>
+    <dd>People want proof the report went through, and they want to know roughly when it will be fixed.</dd>
+  </dl>
+
+
+  <h3>How we worked</h3>
+
+  <p>We started by breaking down the prompt in Figma notes: the client's priorities, what to include on each screen, and words and phrases to use in the app. We also kept notes on feedback from the research rooms and on each change order. Then we assigned roles and gave each person one screen to design for Phase 1. That made five screens instead of the suggested four.</p>
+
+  <table>
+    <caption>Roles and screens in Phase 1</caption>
+    <thead>
+      <tr>
+        <th scope="col">Person</th>
+        <th scope="col">Role</th>
+        <th scope="col">Screen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Kaz</th>
+        <td>Design</td>
+        <td>1. Home page</td>
+      </tr>
+      <tr>
+        <th scope="row">Suzanna</th>
+        <td>Content</td>
+        <td>2. Report page</td>
+      </tr>
+      <tr>
+        <th scope="row">Mizuki (me)</th>
+        <td>Research</td>
+        <td>3. New report confirmation</td>
+      </tr>
+      <tr>
+        <th scope="row">Kaisha</th>
+        <td>Content</td>
+        <td>4. Existing report</td>
+      </tr>
+      <tr>
+        <th scope="row">Vida</th>
+        <td>Product</td>
+        <td>5. Status</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>For the final presentation, I wrote the slides on our goals and on the feedback we got from the professor and other groups.</p>
+
+
+  <h3>Our goals</h3>
+
+  <ol>
+    <li>Help residents report a broken streetlight with a clear location and description.</li>
+    <li>Confirm each submission with a ticket number.</li>
+    <li>Show the report's status and explain when repairs usually happen.</li>
+    <li>Let residents follow an existing report to reduce duplicate submissions.</li>
+    <li>Keep the screens consistent.</li>
+  </ol>
+
+
+  <h3>Phase 1</h3>
+
+  <figure>
+    <img src="../UT%20330%20Field%20Work%20Photos/Team%20Sprit/Phase%201.png"
+         width="3764" height="1416"
+         alt="Five phone screens from Phase 1 of Riverton 311: a home page listing followed reports, a create-a-report form with a location search, a confirmation screen saying Your report is in with ticket number UM-436-5467, a duplicate report message with a Track button, and a report status list.">
+    <figcaption>Phase 1: each of us designed one screen on our own.</figcaption>
+  </figure>
+
+  <p><strong>Feedback after Phase 1</strong></p>
+  <ul>
+    <li>Some screens had too much text, which made important information harder to find.</li>
+    <li>The report form needed a map and a location pin.</li>
+    <li>Text size and layouts needed more consistency across screens.</li>
+  </ul>
+  <p><strong>Our response:</strong> We added a map to the report form and made the bottom navigation consistent across screens.</p>
+
+
+  <h3>Phase 2</h3>
+
+  <figure>
+    <img src="../UT%20330%20Field%20Work%20Photos/Team%20Sprit/Phase%202.png"
+         width="3764" height="1442"
+         alt="Five phone screens from Phase 2: the report form now has a map for pinning the location, all screens share the same bottom navigation, the duplicate report screen has Track and Ignore buttons, and the status page shows a map and a repair timeline.">
+    <figcaption>Phase 2: a map on the report form and a shared bottom navigation.</figcaption>
+  </figure>
+
+  <p><strong>Feedback after Phase 2</strong></p>
+  <ul>
+    <li>The report form needed clearer instructions about what residents should enter.</li>
+  </ul>
+  <p><strong>Our response:</strong> We revised the form to give residents more guidance and added an option to attach an image.</p>
+
+
+  <h3>Phase 3 and the change orders</h3>
+
+  <p>In Phase 3 we also had to handle two change orders.</p>
+
+  <dl>
+    <dt>SMS / email notification preferences</dt>
+    <dd>Residents complained about spam, or about not getting updates when crews changed repair dates. We added a link that opens a pop-up for managing notifications.</dd>
+    <dt>Save and finish later</dt>
+    <dd>Residents sometimes start a report while walking or driving and cannot finish it safely. We added a Save option, and saved drafts can be opened from the navigation bar.</dd>
+  </dl>
+
+  <figure>
+    <img src="../UT%20330%20Field%20Work%20Photos/Team%20Sprit/Phase%203.png"
+         width="2110" height="1224"
+         alt="Five phone screens from Phase 3: the report form has object, additional details and attach image fields with Submit, Save and Cancel buttons; the confirmation and duplicate report screens have a Set Notification Settings link that opens a pop-up with in-app, SMS and email options; the navigation bar now includes Drafted Reports.">
+    <figcaption>Phase 3: notification settings, saved drafts, and a more detailed report form.</figcaption>
+  </figure>
+
+  <p><strong>Feedback after Phase 3</strong></p>
+  <ul>
+    <li>Make it clearer how residents follow an existing report.</li>
+    <li>Show each followed report's current status on the home page.</li>
+  </ul>
+
+
+  <h3>What worked</h3>
+
+  <ul>
+    <li><strong>Sticking to one design system.</strong> Because we strictly followed the same system, each of us could work on our own screen and the screens still fit together.</li>
+    <li><strong>Working alone, then iterating together.</strong> Each person built one screen first, and then we revised the screens together after each round of feedback.</li>
+  </ul>
+
+
+  <h3>What could have been better</h3>
+
+  <ul>
+    <li><strong>Personalizing the design.</strong> The screens are clean, but we did not change the color scheme or visual elements to make the design our own.</li>
+    <li><strong>Additional screens.</strong> Some functions the design implies, such as going back to a saved report, are not shown.</li>
+  </ul>
+
+
+  <h3>Reflection</h3>
+
+  <p>The feedback after each phase made the biggest difference. Our first version had too much text and no map, and each round of feedback pushed us toward screens that were simpler and more consistent. Splitting the work by screen let five people move quickly, but it also meant we had to check carefully that the screens fit together. The change orders were a good reminder that real users have situations we did not plan for, like starting a report while walking. If we did this again, I would make time for the screens that connect the flow, like returning to a saved draft, and for following an existing report, which was the main feedback after Phase 3.</p>
+
+
+  <p><a href="index.html">Back to the log</a></p>
+
+</article>
+
+</main>
+
+<footer>
+  <p>Mizuki Kuno. UT330, Taubman College, Fall 2026.</p>
+</footer>
+
+</body>
+</html>
